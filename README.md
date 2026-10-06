@@ -1,6 +1,6 @@
-***🏨 Family Hotel Room Booking System
+**🏨 Family Hotel Room Booking System***
 
-###📌 Project Overview
+***📌 Project Overview**
 
 The Family Hotel Room Booking System is a Python-based console application developed to simplify the basic process of managing hotel room bookings.
 
@@ -10,7 +10,7 @@ This project demonstrates the practical application of fundamental Python progra
 
 ---
 
-🎯 Project Objective
+***🎯 Project overview**
 
 The main objective of this project is to develop a simple and user-friendly hotel room booking system using Python.
 
@@ -27,7 +27,7 @@ The system is designed to:
 
 ---
 
-🛠️ Technologies and Concepts Used
+***🛠️ Technologies and Concepts Used**
 
 Technology
 
@@ -35,7 +35,7 @@ Technology
 - Visual Studio Code
 - GitHub
 
-Python Concepts
+***Python Concepts***
 
 - Variables
 - Dictionaries
@@ -56,7 +56,7 @@ Python Concepts
 
 ---
 
-🔄 System Workflow
+****🔄 System Workflow**
 
 The complete process of the application is:
 
@@ -82,7 +82,7 @@ Exit
 
 ---
 
-1️⃣ Room Management
+****1️⃣ Room Management**
 
 The system first stores the available rooms using a dictionary.
 
@@ -114,7 +114,7 @@ This makes it easy to access and update room information.
 
 ---
 
-2️⃣ Booking Storage
+***2️⃣ Booking Storage**
 
 An empty dictionary is created to store the current booking details.
 
@@ -138,7 +138,7 @@ After a successful booking, it stores:
 
 ---
 
-3️⃣ Main Menu
+**3️⃣ Main Menu**
 
 The application uses a "while" loop to continuously display the menu.
 
@@ -161,7 +161,7 @@ The program stops when the user selects 5. Exit.
 
 ---
 
-4️⃣ View Rooms
+**4️⃣ View Rooms***
 
 When the user selects Option 1, the system displays all rooms.
 
@@ -181,7 +181,7 @@ The program displays:
 - Price
 - Availability status
 
-Example Output
+**Example Output**
 
 Room No   Type      Price      Status
 
@@ -191,7 +191,7 @@ Room No   Type      Price      Status
 
 ---
 
-5️⃣ Customer Information
+**5️⃣ Customer Information**
 
 When the user selects Option 2 – Book Room, the system asks for customer information.
 
@@ -213,7 +213,7 @@ The "int()" function converts numerical input into an integer.
 
 ---
 
-6️⃣ Phone Number Validation
+**6️⃣ Phone Number Validation**
 
 The system validates the customer's phone number before continuing.
 
@@ -238,11 +238,11 @@ If the input is invalid, the system asks the user to enter it again.
 
 ---
 
-7️⃣ Room Type Suggestion
+**7️⃣ Room Type Suggestion**
 
 The system automatically suggests a room based on the number of members.
 
-Code
+**Code****
 
 if members <= 2:
     suggested_type = "Single"
@@ -264,7 +264,7 @@ This feature helps the user choose a room suitable for the group size.
 
 ---
 
-8️⃣ Display Available Rooms
+**8️⃣ Display Available Rooms**
 
 After suggesting the room type, the system searches for available rooms of that type.
 
@@ -285,7 +285,7 @@ Only suitable available rooms are displayed.
 
 ---
 
-9️⃣ Room Validation
+***9️⃣ Room Validation**
 
 After the user selects a room, the system checks whether the room can be booked.
 
@@ -313,7 +313,7 @@ This prevents incorrect room selection.
 
 ---
 
-🔟 Number of Days Validation
+***🔟 Number of Days Validation**
 
 The system asks how many days the customer wants to stay.
 
@@ -335,7 +335,7 @@ If the user enters an invalid value, the program asks again.
 
 ---
 
-1️⃣1️⃣ Bill Calculation
+***1️⃣1️⃣ Bill Calculation**
 
 The total bill is calculated using the room price and number of days.
 
@@ -358,7 +358,7 @@ Total Bill = ₹2500 × 3
 
 ---
 
-1️⃣2️⃣ Confirming the Booking
+**1️⃣2️⃣ Confirming the Booking**
 
 After successful validation, the room status is changed to ""Booked"".
 
@@ -384,7 +384,7 @@ The room is marked as booked and the customer's complete booking information is 
 
 ---
 
-1️⃣3️⃣ View Booking Details
+**1️⃣3️⃣ View Booking Details**
 
 When the user selects Option 3, the system displays the current booking.
 
@@ -410,7 +410,7 @@ No booking found.
 
 ---
 
-1️⃣4️⃣ Cancel Booking
+**1️⃣4️⃣ Cancel Booking**
 
 The user can cancel the current booking using Option 4.
 
@@ -433,7 +433,7 @@ When the correct room number is entered:
 
 ---
 
-1️⃣5️⃣ Exit the Program
+**1️⃣5️⃣ Exit the Program***
 
 When the user selects Option 5, the program displays a thank-you message and stops.
 
@@ -448,7 +448,7 @@ The "break" statement terminates the main "while" loop and ends the program.
 
 ---
 
-🧪 Testing
+***🧪 Testing**
 
 The project was tested using different scenarios to verify that the system works correctly.
 
@@ -473,7 +473,7 @@ Testing these cases helps ensure that the system responds correctly to both vali
 
 ---
 
-📁 Project Structure
+**📁 Project Structure**
 
 Family-Hotel-Room-Booking/
 │
@@ -491,7 +491,7 @@ Contains the project description, system workflow, important code explanations, 
 
 ---
 
-▶️ How to Run the Project
+***▶️ How to Run the Project**
 
 Step 1
 
@@ -519,7 +519,7 @@ Select an option from the displayed menu and follow the instructions.
 
 ---
 
-🚀 Future Enhancements
+***🚀 Future Enhancements***
 
 The current project is designed as a simple console-based application. It can be further improved by adding:
 
@@ -535,7 +535,7 @@ The current project is designed as a simple console-based application. It can be
 
 ---
 
-📌 Conclusion
+**📌 Conclusion***
 
 The Family Hotel Room Booking System demonstrates how Python programming concepts can be used to solve a practical real-world problem.
 
